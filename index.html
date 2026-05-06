@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bhavesh Kumar — The Kumar Review</title>
+  <meta name="description" content="Bhavesh Kumar — Researcher at Haize Labs. Learning mechanics for post-training in non-verifiable settings, with continual learning increasingly in view." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=16" />
+</head>
+<body>
+
+<!-- ============================================================
+     § I — MASTHEAD  (identity + research thesis + statement)
+     ============================================================ -->
+<section class="masthead" data-screen-label="01 Masthead">
+  <div class="shell">
+
+    <!-- top eyebrow — quiet, single line -->
+    <div class="eyebrow-row">
+      <div class="l">Bhavesh Kumar</div>
+      <div class="c"><span class="monogram">B<span class="amp">·</span>K</span></div>
+      <div class="r">Manhattan · MMXXVI</div>
+    </div>
+
+    <!-- title -->
+    <div class="title-block">
+      <div class="super">Researcher</div>
+      <h1>Bhavesh<span class="amp">&amp;</span>Kumar</h1>
+      <p class="sub">
+        Working on learning mechanics for post-training, mostly in
+        non-verifiable settings. Currently working on continual learning.
+      </p>
+    </div>
+
+    <!-- identity rail -->
+    <div class="identity-rail">
+      <div class="cell">
+        <div class="k">Now</div>
+        <div class="v"><em>Haize Labs</em></div>
+      </div>
+      <div class="cell">
+        <div class="k">Previously</div>
+        <div class="v"><em>Nous Research</em></div>
+      </div>
+      <div class="cell">
+        <div class="k">B.S. Computer Science</div>
+        <div class="v"><em>University of Washington</em></div>
+      </div>
+      <div class="cell">
+        <div class="k">M.S. Applied Mathematics</div>
+        <div class="v"><em>University of Washington</em></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     § II — ISSUE PLATE  (portrait | research statement, side by side)
+     ============================================================ -->
+<section id="about" data-screen-label="02 About">
+  <div class="shell">
+
+    <div class="plate-head reveal">
+      <div class="plate-head-l">§ 02</div>
+      <div class="plate-head-c">❦</div>
+      <div class="plate-head-r">Kumar · MMXXVI</div>
+    </div>
+
+    <div class="about-plate">
+
+      <aside class="plate reveal">
+        <div class="frame">
+          <img src="assets/bhavesh.jpg" alt="Bhavesh Kumar" />
+        </div>
+        <div class="plate-pull">
+          “Machine learning begins as a problem in <em>mathematics</em>,
+          and very quickly becomes one in <em>distributed systems</em>.”
+        </div>
+      </aside>
+
+      <div class="plate-text reveal">
+
+        <h2>About</h2>
+
+        <p>
+          <span class="drop">M</span>y research program is on the
+          <em>dynamics of foundation model training</em> in regimes where
+          standard theoretical assumptions fail. Classical learning theory
+          presumes infinite width, deterministic gradient flow, and
+          verifiable reward signals, but the models we deploy operate at
+          finite width, are trained with stochastic optimization at large
+          learning rates, and increasingly on non-verifiable tasks. I take
+          the gap between these idealized regimes and actual training to
+          be the <em>central object of study</em>, and I work on building
+          theory and methods that are faithful to the conditions under
+          which modern models are trained.
+        </p>
+        <p class="qed">
+          The work I am drawn to is <em>mathematically honest and
+          practically sharp</em>, the kind that will still matter in ten
+          years. Work like that is rarer than it should be, and I have
+          come to believe it is mostly a question of taste, built slowly
+          and meticulously. I want to spend my career building mine.
+        </p>
+
+        <div class="plate-block">
+          <div class="plate-block-key">Correspondence</div>
+          <div class="plate-block-val correspondence">
+            <a href="mailto:bhavkumar21@gmail.com">bhavkumar21<span class="at"> [at] </span>gmail</a>
+            <span class="sep">·</span>
+            <a href="https://x.com/bha_ku21" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <span class="sep">·</span>
+            <a href="https://www.linkedin.com/in/bhavkumar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <span class="sep">·</span>
+            <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=HLCcfmMAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- (§ III research statement folded into the masthead lead) -->
+
+
+<!-- ============================================================
+     § IV — PAPERS
+     ============================================================ -->
+<section id="papers" class="papers" data-screen-label="04 Papers">
+  <div class="shell">
+
+    <div class="head reveal">
+      <div class="l"></div>
+      <h2>Research <em>Work</em></h2>
+      <div class="r"></div>
+    </div>
+
+    <div class="papers-list reveal">
+
+      <article class="paper">
+        <div class="num">No. 01</div>
+        <div class="body">
+          <h3>MJ1: <em>Multimodal Judgment via Grounded Verification</em></h3>
+          <div class="authors">
+            <span class="bk-name">Bhavesh Kumar</span>, Dylan Feng, Leonard Tang
+          </div>
+          <div class="venue">
+            <span>Haize Labs</span>
+          </div>
+        </div>
+        <div class="year">2026</div>
+      </article>
+
+      <article class="paper">
+        <div class="num">No. 02</div>
+        <div class="body">
+          <h3>TournO: <em>Tournament Optimization for Reinforcement Learning in Non-Verifiable Domains</em></h3>
+          <div class="authors">
+            Dylan Feng, <span class="bk-name">Bhavesh Kumar</span>, Leonard Tang
+          </div>
+          <div class="venue">
+            <span>Haize Labs</span>
+          </div>
+        </div>
+        <div class="year">2026</div>
+      </article>
+
+      <article class="paper">
+        <div class="num">No. 03</div>
+        <div class="body">
+          <h3>CurvaDion: <em>Curvature-Adaptive Distributed Orthonormalization</em></h3>
+          <div class="authors">
+            <span class="bk-name">Bhavesh Kumar</span>, Roger Jin, Jeffrey Quesnelle
+          </div>
+          <div class="venue">
+            <span>Nous Research</span>
+          </div>
+        </div>
+        <div class="year">2025</div>
+      </article>
+
+      <article class="paper">
+        <div class="num">No. 04</div>
+        <div class="body">
+          <h3>The Limits of Large Learning Rates: <em>A Case Study in Single Index Models</em></h3>
+          <div class="authors">
+            <span class="bk-name">Bhavesh Kumar</span>, Libin Zhu
+          </div>
+          <div class="venue">
+            <span>University of Washington</span>
+          </div>
+        </div>
+        <div class="year">2025</div>
+      </article>
+
+      <article class="paper">
+        <div class="num">No. 05</div>
+        <div class="body">
+          <h3>Stochastic Neural Tangent Kernel: <em>Revisiting the NTK for SGD</em></h3>
+          <div class="authors">
+            <span class="bk-name">Bhavesh Kumar</span>, Dan Mikulincer
+          </div>
+          <div class="venue">
+            <span>University of Washington</span>
+          </div>
+        </div>
+        <div class="year">2025</div>
+      </article>
+
+      <article class="paper">
+        <div class="num">No. 06</div>
+        <div class="body">
+          <h3>Husky Hold'em Benchmark: <em>Can LLMs Design Competitive Poker Bots?</em></h3>
+          <div class="authors">
+            <span class="bk-name">Bhavesh Kumar</span>, Hoang D. Nguyen, Roger Jin, Ryan Teknium, Jeffrey Quesnelle
+          </div>
+          <div class="venue">
+            <span>Nous Research</span>
+          </div>
+        </div>
+        <div class="year">2025</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     § V — YONEDA
+     ============================================================ -->
+<!-- <section id="yoneda" class="yoneda" data-screen-label="05 Yoneda">
+  <div class="shell">
+    <div class="yoneda-card reveal">
+      <div class="line-1">
+        <span class="head">An aside, on what models know</span>
+        <span class="sep">·</span>
+        <span class="title">Yoneda&rsquo;s Lemma</span>
+      </div>
+      <div class="line-2 equation"><i>A</i> &cong; <i>B</i> <span class="iff">&hArr;</span> Hom(&minus;,&thinsp;<i>A</i>) &cong; Hom(&minus;,&thinsp;<i>B</i>)</div>
+    </div>
+
+    <p class="gloss reveal">
+      “The model never sees the apple. It sees only the company the word
+      keeps. <span class="lemma">The lemma says that is sufficient.</span>”
+    </p>
+  </div>
+</section> -->
+
+
+<!-- ============================================================
+     § VI — MISCELLANY
+     ============================================================ -->
+<section id="miscellany" class="miscellany" data-screen-label="06 Miscellany">
+  <div class="shell">
+
+    <div class="head reveal">
+      <div class="l"></div>
+      <h2>Outside the <em>Lab</em></h2>
+      <div class="r"></div>
+    </div>
+    <div class="deck reveal">
+      A short list of preoccupations — the company I keep when the notebook is closed.
+    </div>
+
+    <div class="misc-grid reveal">
+
+      <div class="misc-item">
+        <div class="index">No. I &mdash; Art</div>
+        <div class="what">Reading <em>Salman Toor,</em> <em>Sadie Barnette,</em> and <em>Banksy.</em></div>
+        <div class="quote">“Art should comfort the disturbed and disturb the comfortable.”</div>
+        <div class="src">— Banksy</div>
+      </div>
+
+      <div class="misc-item">
+        <div class="index">No. II &mdash; Bar</div>
+        <div class="what">A <em>licensed bartender,</em> for the long pour and the slow drink.</div>
+        <div class="quote">“A bartender is the aristocrat of the working class.”</div>
+        <div class="src">— Cocktail · 1988</div>
+      </div>
+
+      <div class="misc-item">
+        <div class="index">No. III &mdash; Markets</div>
+        <div class="what">Ran the <em>Algorithmic Trading Club</em> at the University of Washington.</div>
+        <div class="quote">“In this business it&rsquo;s easy to confuse luck with brains.”</div>
+        <div class="src">— Jim Simons</div>
+      </div>
+
+      <div class="misc-item">
+        <div class="index">No. IV &mdash; Music</div>
+        <div class="what">Sang with <em>Hounds of Music,</em> the UW a cappella group.</div>
+        <div class="quote">“I swore I wouldn&rsquo;t tell, but most of y&rsquo;all sharing bars like you got the bottom bunk in a two-man cell.”</div>
+        <div class="src">— Kendrick Lamar</div>
+      </div>
+
+      <div class="misc-item">
+        <div class="index">No. V &mdash; Sport</div>
+        <div class="what">Played on the <em>UW table-tennis team.</em></div>
+        <div class="quote">“That doesn&rsquo;t even enter my consciousness.”</div>
+        <div class="src">— Marty Mauser</div>
+      </div>
+
+      <div class="misc-item">
+        <div class="index">No. VI &mdash; City</div>
+        <div class="what">Walking <em>Lower Manhattan</em> at every uncertain hour.</div>
+        <div class="quote">“Quite simply, I was in love with New York… the way you love the first person who ever touches you.”</div>
+        <div class="src">— Joan Didion</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     § VII — COLOPHON / SKYLINE
+     ============================================================ -->
+<section class="colophon" data-screen-label="07 Colophon">
+
+  <div class="shell">
+    <div class="legacy-quote reveal">
+      <div class="mark">&ldquo;</div>
+      <div class="text">Each building in Manhattan is someone&rsquo;s legacy, built with hard work, sweat, and determination. With each day in this city, I hope to build one of my own, as tall as these.</div>
+    </div>
+  </div>
+
+  <div class="shell skyline-stage">
+    <svg class="skyline" viewBox="0 0 1200 320" preserveAspectRatio="xMidYEnd meet" aria-hidden="true">
+      <g fill="none" stroke="#14573F" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+
+        <!-- statue of liberty (left) -->
+        <path d="M52 315 L52 298 L128 298 L128 315" stroke-width="1.6"/>
+        <path d="M62 298 L62 278 L118 278 L118 298" stroke-width="1.6"/>
+        <path d="M72 278 L72 270 L108 270 L108 278" stroke-width="1"/>
+        <path d="M82 270 L82 264 L98 264 L98 270" stroke-width="1"/>
+        <path d="M84 264 C 82 256, 80 248, 83 240 L 85 232 C 85 228, 87 225, 89 223 L 91 221" stroke-width="1.6"/>
+        <path d="M96 264 C 98 256, 100 248, 97 240 L 95 232 C 95 228, 94 226, 93 224 L 92 222" stroke-width="1.6"/>
+        <circle cx="90" cy="216" r="4.2" stroke-width="1.4"/>
+        <path d="M90 212 L90 204" stroke-width="1.2"/>
+        <path d="M86 213 L83 206" stroke-width="1.2"/>
+        <path d="M94 213 L97 206" stroke-width="1.2"/>
+        <path d="M83 215 L78 210" stroke-width="1.2"/>
+        <path d="M97 215 L102 210" stroke-width="1.2"/>
+        <path d="M82 217 L76 215" stroke-width="1"/>
+        <path d="M98 217 L104 215" stroke-width="1"/>
+        <path d="M94 220 C 100 214, 104 204, 106 192 L 108 178" stroke-width="1.6"/>
+        <path d="M106 178 L110 178 L108 172 Z" stroke-width="1.2"/>
+        <path d="M108 172 C 106 168, 107 164, 108 160 C 109 164, 110 168, 108 172 Z" stroke-width="1.4"/>
+        <path d="M86 228 L84 240" stroke-width="1.2"/>
+        <path d="M81 238 L89 236 L90 248 L82 250 Z" stroke-width="1.1"/>
+
+        <!-- low blocks -->
+        <path d="M150 315 L150 298 L172 298 L172 315"/>
+        <path d="M172 315 L172 290 L188 290 L188 282 L204 282 L204 315"/>
+        <path d="M204 315 L204 294 L220 294 L220 315"/>
+        <path d="M157 303 L157 308 M162 303 L162 308 M167 303 L167 308"/>
+        <path d="M178 296 L178 310 M184 296 L184 310 M194 288 L194 310 M200 288 L200 310"/>
+
+        <!-- empire state -->
+        <path d="M234 315 L234 306 L274 306 L274 315"/>
+        <path d="M238 306 L248 216 L260 216 L270 306 Z"/>
+        <line x1="254" y1="216" x2="254" y2="164" stroke-width="1.2"/>
+        <path d="M251 204 L257 204" stroke-width="0.9"/>
+        <path d="M252 192 L256 192" stroke-width="0.9"/>
+        <circle cx="254" cy="164" r="1.2" fill="#14573F"/>
+
+        <!-- midtown blocks -->
+        <path d="M284 315 L284 260 L304 260 L304 315"/>
+        <path d="M304 315 L304 276 L320 276 L320 270 L334 270 L334 315"/>
+        <path d="M334 315 L334 290 L352 290 L352 315"/>
+        <path d="M352 315 L352 268 L372 268 L372 315"/>
+        <path d="M292 260 L292 254 L298 254 L298 260"/>
+        <path d="M358 268 L358 262 L366 262 L366 268"/>
+
+        <!-- mid-rise -->
+        <path d="M388 315 L388 282 L402 282 L402 276 L414 276 L414 315"/>
+        <path d="M414 315 L414 292 L428 292 L428 288 L440 288 L440 315"/>
+        <path d="M440 315 L440 268 L460 268 L460 315"/>
+        <path d="M460 315 L460 288 L476 288 L476 315"/>
+
+        <path d="M492 315 L492 240 L512 240 L512 315"/>
+        <path d="M512 315 L512 264 L528 264 L528 315"/>
+        <path d="M528 315 L528 280 L540 280 L540 315"/>
+
+        <!-- chrysler-ish -->
+        <path d="M554 315 L554 228 L578 228 L578 315"/>
+        <path d="M554 228 Q566 214 578 228"/>
+        <path d="M556 221 Q566 209 576 221"/>
+        <path d="M558 214 Q566 204 574 214"/>
+        <path d="M560 207 Q566 199 572 207"/>
+        <line x1="566" y1="203" x2="566" y2="170" stroke-width="1"/>
+        <line x1="566" y1="170" x2="566" y2="158" stroke-width="1"/>
+        <circle cx="566" cy="158" r="1.1" fill="#14573F"/>
+
+        <path d="M590 315 L590 272 L608 272 L608 315"/>
+        <path d="M608 315 L608 288 L622 288 L622 315"/>
+
+        <!-- one wtc -->
+        <path d="M638 315 L638 250 L682 250 L682 315"/>
+        <path d="M646 250 L646 236 L674 236 L674 250"/>
+        <path d="M652 236 L652 220 L668 220 L668 236"/>
+        <path d="M656 220 L656 208 L664 208 L664 220"/>
+        <line x1="660" y1="208" x2="660" y2="170"/>
+        <circle cx="660" cy="170" r="1.1" fill="#14573F"/>
+
+        <path d="M698 315 L698 266 L714 266 L714 315"/>
+        <path d="M714 315 L714 250 L734 250 L734 315"/>
+        <path d="M734 315 L734 278 L748 278 L748 315"/>
+        <path d="M748 315 L748 242 L768 242 L768 315"/>
+        <path d="M752 242 L752 234 L764 234 L764 242"/>
+
+        <path d="M786 315 L790 212 L806 212 L810 315"/>
+        <path d="M810 315 L810 260 L824 260 L824 315"/>
+        <path d="M824 315 L824 248 L840 248 L840 315"/>
+        <path d="M840 315 L840 278 L854 278 L854 315"/>
+
+        <path d="M870 315 L870 268 L888 268 L888 315"/>
+        <path d="M888 315 L888 240 L908 240 L908 315"/>
+        <path d="M894 240 L894 232 L902 232 L902 240"/>
+
+        <path d="M922 315 L922 256 L938 256 L938 315"/>
+        <path d="M938 315 L938 278 L952 278 L952 315"/>
+        <path d="M952 315 L952 248 L972 248 L972 315"/>
+        <line x1="962" y1="248" x2="962" y2="230"/>
+
+        <path d="M986 315 L986 280 L1002 280 L1002 315"/>
+        <path d="M1002 315 L1002 262 L1018 262 L1018 315"/>
+        <path d="M1018 315 L1018 288 L1032 288 L1032 315"/>
+        <path d="M1032 315 L1032 270 L1050 270 L1050 315"/>
+
+        <path d="M1062 315 L1062 292 L1076 292 L1076 315"/>
+        <path d="M1076 315 L1076 278 L1092 278 L1092 315"/>
+        <path d="M1092 315 L1092 296 L1108 296 L1108 315"/>
+        <path d="M1108 315 L1108 288 L1122 288 L1122 315"/>
+        <path d="M1122 315 L1122 300 L1140 300 L1140 315"/>
+
+        <!-- water -->
+        <path d="M0 315 Q 30 313 56 315 Q 80 317 110 315 Q 140 313 168 315 Q 200 317 232 314 Q 264 316 298 315 Q 340 313 376 316 Q 420 315 468 315 Q 520 317 572 314 Q 620 316 668 315 Q 720 313 770 316 Q 820 315 866 314 Q 912 316 958 315 Q 1004 313 1048 316 Q 1094 315 1140 314 Q 1174 316 1200 315"/>
+      </g>
+      <g stroke="#14573F" stroke-width="0.5" opacity=".5">
+        <line x1="0" y1="319" x2="1200" y2="319" stroke-dasharray="6 6"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="shell">
+    <div class="colo-final">
+      <div class="l">
+        <div class="k">Correspondence</div>
+        <a href="mailto:bhavkumar21@gmail.com">bhavkumar21 [at] gmail</a><br/>
+        <a href="https://x.com/bha_ku21" target="_blank" rel="noopener noreferrer">Twitter</a> · <a href="https://www.linkedin.com/in/bhavkumar/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=HLCcfmMAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
+      </div>
+      <div class="c"><span class="monogram lg">B<span class="amp">·</span>K</span></div>
+      <div class="r">
+        <div class="k">© MMXXVI</div>
+        Bhavesh Kumar<br/>
+        <span id="updated">Last revised · April 2026</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  /* reveal on scroll + ribbon-light bk-name */
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        e.target.querySelectorAll?.('.bk-name').forEach((n, i) => {
+          setTimeout(() => n.classList.add('lit'), 220 + i * 70);
+        });
+      }
+    });
+  }, { threshold: 0.16 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
